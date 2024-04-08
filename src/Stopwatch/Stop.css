@@ -1,0 +1,78 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/29/97/background-with-gears-and-stopwatch-vector-1332997.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.stopwatch {
+    background-color: rgba(6, 0, 0, 0.7); /* semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 600px; /* Adjust width as needed */
+  height: 300px;
+  }
+  
+
+.time {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.laps {
+  margin-top: 20px;
+}
+
+.laps ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.laps ul li {
+  margin-bottom: 5px;
+}
+.menu-bar {
+    background-color: #333; /* Background color of the menu bar */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align text */
+    width: 100%; /* Cover entire width of the page */
+    height:80px;
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Align at the top */
+    left: 0; /* Align at the left */
+  }
+  
+  
+  .stopwatch-container {
+    text-align: center; /* Center align content */
+  }
